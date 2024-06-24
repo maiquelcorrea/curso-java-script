@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Exemplo de Alerta</title>
 </head>
 <body>
-    
+    <!-- Botão com um ID -->
+    <button id="meuBotao">Clique em mim</button>
+
+    <!-- Adicione o JavaScript no final do body -->
+    <script>
+        // Seleciona o botão pelo ID
+        let botao = document.getElementById('meuBotao');
+
+        // Adiciona um evento de clique ao botão
+        botao.addEventListener('click', function() {
+            // Exibe o alerta quando o botão é clicado
+            alert('Você clicou no botão!');
+        });
+    </script>
 </body>
 </html>

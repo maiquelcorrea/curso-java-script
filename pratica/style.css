@@ -1,0 +1,15 @@
+span{
+    font-size: 11px;
+    cursor: pointer;
+    color: blue;
+}
+
+p{
+    overflow: hidden;
+    height: 0px;
+    transition: 1s;
+}
+
+.mostrar{
+    height: 200px !important;
+}
